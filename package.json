@@ -6,21 +6,22 @@
     "build": "vinxi build",
     "start": "vinxi start",
     "gulp": "gulp svg-sprite",
-    "generate:icons": "gulp svg-sprite && python scripts/process_icons.py",
+    "generate:icons": "svgo -f assets/icons && gulp svg-sprite && python scripts/process_icons.py",
     "generate:types": "supabase gen types --lang=typescript --project-id \"nxgcfvxbbfasllzozlqh\" > src/lib/common/generated/supabase-types.ts"
   },
   "dependencies": {
-    "@solidjs/start": "^1.1.0",
     "@solidjs/router": "^0.15.3",
-    "solid-js": "^1.9.5",
+    "@solidjs/start": "^1.1.0",
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.49.1",
+    "solid-js": "^1.9.5",
     "vinxi": "^0.5.3"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "gulp": "5.0.0",
-    "gulp-svg-sprite": "^2.0.3"
+    "gulp-svg-sprite": "^2.0.3",
+    "svgo": "^3.3.2"
   },
   "engines": {
     "node": ">=22"

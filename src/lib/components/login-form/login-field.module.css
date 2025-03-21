@@ -15,3 +15,8 @@
 .container svg {
 	transition: color 0.2s ease-in-out;
 }
+
+.button_icon {
+	height: 100%;
+	aspect-ratio: 1;
+}

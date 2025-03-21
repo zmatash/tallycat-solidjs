@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
+    "watch": "tsc --noEmit --watch",
     "start": "vinxi start",
     "gulp": "gulp svg-sprite",
     "generate:icons": "svgo -f assets/icons && gulp svg-sprite && python scripts/process_icons.py",

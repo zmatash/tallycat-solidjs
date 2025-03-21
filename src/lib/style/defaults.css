@@ -22,12 +22,16 @@ svg {
 	stroke-width: 2;
 }
 
+button {
+	background: none;
+}
+
 input {
 	font-size: var(--size24);
 	color: var(--text);
 	border: none;
 	outline: none;
-	background: transparent;
+	background: none;
 	flex-shrink: 1;
 	width: 100%;
 }

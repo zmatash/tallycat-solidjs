@@ -1,0 +1,45 @@
+.fill_screen {
+	width: 100vw;
+	height: 100vh;
+}
+
+.fill_parent {
+	width: 100%;
+	height: 100%;
+}
+
+.row_centred {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.col_centred {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gap8 {
+	gap: var(--size8);
+}
+
+.gap16 {
+	gap: var(--size16);
+}
+
+.pad8 {
+	padding: var(--size8);
+}
+
+.pad16 {
+	padding: var(--size16);
+}
+
+.pad24 {
+	padding: var(--size24);
+}
+
+.pad32 {
+	padding: var(--size32);
+}

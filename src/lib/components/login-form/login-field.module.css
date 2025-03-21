@@ -1,0 +1,17 @@
+.container {
+	width: 100%;
+	height: var(--size48);
+	gap: var(--size8);
+	padding: var(--size8);
+	background: var(--surface0);
+	border-radius: 4px;
+}
+
+.container:focus-within {
+	background: var(--surface1);
+	border: 1px solid var(--lavender);
+}
+
+.container svg {
+	transition: color 0.2s ease-in-out;
+}

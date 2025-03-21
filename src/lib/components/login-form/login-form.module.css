@@ -1,0 +1,9 @@
+.login_form_container {
+	background: var(--mantle);
+	flex-direction: column;
+}
+
+.header_text {
+	font-size: var(--size56);
+	font-weight: bold;
+}

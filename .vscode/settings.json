@@ -1,0 +1,31 @@
+{
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.fixAll.ts": "always"
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.fixAll.ts": "always"
+        },
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.biome": "always",
+            "source.fixAll.biome": "always",
+        },
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+    },
+    "editor.defaultFormatter": "biomejs.biome",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "app.tsx": "entry-*.tsx",
+        "*.tsx": "${capture}.module.css"
+    }
+}

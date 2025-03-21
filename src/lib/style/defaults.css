@@ -1,0 +1,37 @@
+body {
+	color: var(--text);
+	font-family: "Inter", sans-serif;
+}
+
+span {
+	line-height: 1.2;
+}
+
+div,
+form,
+input {
+	display: flex;
+	flex-direction: column;
+}
+
+svg {
+	height: var(--size24);
+	width: var(--size24);
+	color: var(--subtext0);
+	flex-shrink: 0;
+	stroke-width: 2;
+}
+
+input {
+	font-size: var(--size24);
+	color: var(--text);
+	border: none;
+	outline: none;
+	background: transparent;
+	flex-shrink: 1;
+	width: 100%;
+}
+
+input::placeholder {
+	color: var(--subtext0);
+}
